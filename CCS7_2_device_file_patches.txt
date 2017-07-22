@@ -1,0 +1,8 @@
+This project contains modifications to the Texas Instruments Code Composer Studio 7.2 device files to fix issues
+
+ccsv7/ccs_base/common/targetdb/devices/66AK2H12.xml
+===================================================
+
+Modified version from Keystone2	1.1.9 com.ti.emulation.keystone2.linux.feature.group to add missing nodes which prevented collection of ETB trace
+on the Cortex-A15 CPUs as reported in https://e2e.ti.com/support/development_tools/code_composer_studio/f/81/t/511744
+
